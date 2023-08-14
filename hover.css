@@ -1,0 +1,55 @@
+.aboutHover {
+    position:relative;
+}
+.aboutHover:before {
+    content: 'About';
+    position:absolute;
+    color: red;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.5s;
+    
+}
+
+.aboutHover:hover:before{
+    width:100%;
+  }
+
+.projectsHover {
+    position:relative;
+}
+.projectsHover:before {
+    content: 'Projects';
+    position:absolute;
+    color: red;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.5s;
+    
+}
+
+.projectsHover:hover:before{
+    width:100%;
+  }
+.contactHover {
+    position:relative;
+}
+.contactHover:before {
+    content: 'Contact';
+    position:absolute;
+    color: red;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.5s;
+    
+}
+
+.contactHover:hover:before{
+    width:100%;
+  }
