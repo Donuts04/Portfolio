@@ -10,20 +10,17 @@ body {
 }
 
 nav {
-    /* position: fixed; */
     background-color: black;
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     flex-direction: baseline;
-    
     height: 100px;
     padding: 10px 60px; 
 }
 
 #logo {
-    margin-left: 50px;
+    margin-left: 3.5vw;
     max-width: 100%; /* Ensure the video doesn't exceed the width of the container */
     max-height: 100%; /* Ensure the video doesn't exceed the height of the container */
     padding: 10px;
@@ -33,7 +30,7 @@ nav {
 nav ul {
     flex: 1;
     text-align: right;
-    margin-right: 50px;
+    margin-right: 3.5vw;
 }
 
 nav ul li {
@@ -48,27 +45,9 @@ nav ul li a {
     font-size: 24px; 
 }
 
-
-/* .intro {
-    background-color: black;
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 400px;
-    padding: 0 40px;
-}
-
-.mario {
-    margin: 0px 150px;
-    max-width: 100%;
-    max-height: 100%;
-} */
-
 .intro {
     background-color: black;
-    width: 100%;
+    width: 1440px;
     margin-top: 50px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -128,4 +107,3 @@ nav ul li a {
     font-size: 35px;
     margin: 0px 150px;
 }
-
